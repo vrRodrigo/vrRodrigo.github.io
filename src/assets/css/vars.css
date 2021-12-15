@@ -1,0 +1,15 @@
+:root {
+    --primary: #39444e;
+    --fundo: #efefef;
+    --fundo-white: #fff;
+    --texto-menu: #fff;
+    --laranja: #ff8903;
+    --selecionado: #1fd91f;
+    --ativo: green;
+    --inativo: red;
+    --escurecer-inativos :#000000ba;
+    --linha-clara: #f0f0f0;
+    --borda-input: #a7a7a7;
+    /* Fundo ao abrir modal */
+    --modal-bg: #000000ba;
+}

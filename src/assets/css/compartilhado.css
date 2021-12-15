@@ -1,0 +1,72 @@
+@import "vars.css";
+
+body {
+  background-color: var(--fundo);
+}
+
+.fundo_modal {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  z-index: 1;
+  background: var(--modal-bg);
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+}
+
+.my_modal {
+  position: relative;
+  top: 10rem;
+  background: #fff;
+  min-height: 700px;
+  width: 550px;
+
+  padding: 0.85rem 0.75rem;
+  border-radius: 0.6rem;
+}
+
+/* Estruturas das páginas */
+
+.main {
+  position: absolute;
+  display: grid;
+  grid-template-rows: 4.5rem auto;
+  grid-template-columns: 10% auto;
+  width: 100%;
+}
+
+.conteudo {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: var(--fundo);
+
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.conteudo_title {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--fundo);
+}
+
+/* Grid Auxiliares */
+
+.grid_one {
+  display: grid;
+  grid-template-columns: 1fr;
+	gap: 1rem;
+	margin-bottom: 2rem;
+}
+
+.grid_two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	margin-bottom: 2rem;
+}
